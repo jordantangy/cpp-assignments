@@ -18,7 +18,7 @@ namespace itertools {
             iterator(int current_to_be = 0) : current(current_to_be) {}
 
 
-            iterator& operator++() {
+            iterator &operator++() {
                 current = current + 1;
                 return *this;
             }
